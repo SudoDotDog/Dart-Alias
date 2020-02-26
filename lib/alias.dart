@@ -1,4 +1,4 @@
-library numeric;
+library alias;
 
 /// A Calculator.
 class Calculator {
