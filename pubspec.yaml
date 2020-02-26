@@ -1,6 +1,6 @@
 name: numeric
 description: Alias ids
-version: 0.0.1
+version: 0.0.0
 homepage: https://sudo.dog
 
 environment:
