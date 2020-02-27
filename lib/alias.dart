@@ -1,3 +1,4 @@
 library alias;
 
-export "./src/alias-map.dart";
+export "./src/basic.dart";
+export "./src/word-pair.dart";
