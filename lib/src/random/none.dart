@@ -1,8 +1,10 @@
 import 'dart:math';
 
 const List<String> _nounList = [
-  "A",
-  "B",
+  "Apple",
+  "Day",
+  "House",
+  "World",
 ];
 
 String getRandomNoun() {

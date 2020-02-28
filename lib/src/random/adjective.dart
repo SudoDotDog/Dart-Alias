@@ -1,8 +1,15 @@
 import 'dart:math';
 
 const List<String> _adjectiveList = [
-  "A",
-  "B",
+  "Awesome",
+  "Best",
+  "Clear",
+  "Easy",
+  "Little",
+  "Local",
+  "Long",
+  "Major",
+  "New",
 ];
 
 String getRandomAdjective() {
