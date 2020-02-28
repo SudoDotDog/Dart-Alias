@@ -1,6 +1,7 @@
 import 'package:alias/alias.dart';
 import 'package:alias/src/random/adjective.dart';
 import 'package:alias/src/random/none.dart';
+import 'package:alias/src/util/combine.dart';
 
 class WordPairAliasGenerator extends AliasGenerator {
   @override
@@ -8,7 +9,7 @@ class WordPairAliasGenerator extends AliasGenerator {
     final String adjective = getRandomAdjective();
     final String none = getRandomNoun();
 
-    final String value = adjective + none;
+    final String value = combineWithPascalCase(adjective, none);
 
     return value;
   }
