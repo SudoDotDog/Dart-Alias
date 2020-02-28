@@ -1,4 +1,4 @@
-import 'package:english_words/english_words.dart';
+import 'package:alias/src/random/none.dart';
 
 class AliasGenerator {
   final Map<String, String> _map = {};
@@ -18,9 +18,8 @@ class AliasGenerator {
   }
 
   String generateToken() {
-    final WordPair wordPair = WordPair.random();
-    final String value = wordPair.first;
+    final String noun = getRandomNoun();
 
-    return value;
+    return noun;
   }
 }

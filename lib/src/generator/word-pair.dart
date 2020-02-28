@@ -1,11 +1,14 @@
 import 'package:alias/alias.dart';
-import 'package:english_words/english_words.dart';
+import 'package:alias/src/random/adjective.dart';
+import 'package:alias/src/random/none.dart';
 
 class WordPairAliasGenerator extends AliasGenerator {
   @override
   String generateToken() {
-    final WordPair wordPair = WordPair.random();
-    final String value = wordPair.asPascalCase;
+    final String adjective = getRandomAdjective();
+    final String none = getRandomNoun();
+
+    final String value = adjective + none;
 
     return value;
   }
