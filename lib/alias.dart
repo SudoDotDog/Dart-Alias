@@ -1,4 +1,4 @@
 library alias;
 
-export "./src/basic.dart";
-export "./src/word-pair.dart";
+export "./src/generator/basic.dart";
+export "./src/generator/word-pair.dart";
