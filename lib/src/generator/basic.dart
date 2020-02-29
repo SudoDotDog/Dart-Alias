@@ -1,4 +1,4 @@
-import 'package:alias/src/random/none.dart';
+import 'package:alias/src/random/noun.dart';
 
 class AliasGenerator {
   final Map<String, String> _map = {};

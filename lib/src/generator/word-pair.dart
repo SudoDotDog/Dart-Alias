@@ -1,6 +1,6 @@
 import 'package:alias/alias.dart';
 import 'package:alias/src/random/adjective.dart';
-import 'package:alias/src/random/none.dart';
+import 'package:alias/src/random/noun.dart';
 import 'package:alias/src/util/combine.dart';
 
 class WordPairAliasGenerator extends AliasGenerator {
